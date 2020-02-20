@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical">
+
+            <EditText
+                android:id="@+id/txtF"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00ACC1"
+                android:hint="Temp in F"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#1E88E5"
+                android:text="Temp Conversion"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FAFAFA" />
+
+            <EditText
+                android:id="@+id/txtC"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00ACC1"
+                android:hint="Temp in C"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+
+        <EditText
+            android:id="@+id/txtKM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00ACC1"
+            android:gravity="center"
+            android:hint="Kilometers"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E88E5"
+            android:text="Distance Conversion"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FAFAFA" />
+
+        <EditText
+            android:id="@+id/txtMI"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00ACC1"
+            android:gravity="center"
+            android:hint="Miles"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical">
+
+            <EditText
+                android:id="@+id/txtKG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00ACC1"
+                android:gravity="center"
+                android:hint="Kilograms"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#1E88E5"
+                android:text="Weight Conversion"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FAFAFA" />
+
+            <EditText
+                android:id="@+id/txtLB"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00ACC1"
+                android:gravity="center"
+                android:hint="Pounds"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="66dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical">
+
+            <EditText
+                android:id="@+id/txtLI"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00ACC1"
+                android:gravity="center"
+                android:hint="Litre"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#1E88E5"
+                android:text="Volume Coversion"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FAFAFA" />
+
+            <EditText
+                android:id="@+id/txtGL"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00ACC1"
+                android:gravity="center"
+                android:hint="Gallons"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
